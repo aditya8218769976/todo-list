@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form-container input {
+  height: 2.5rem;
+  width: 45%;
+  font-size: 1.5rem;
+  outline: none;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  color: black;
+}
+
+.form-container button {
+  background-color: rgb(243, 132, 132);
+  width: 5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  width: fit-content;
+}

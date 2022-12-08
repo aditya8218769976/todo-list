@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  background-color: azure;
+  height: 100vh;
+}
+
+.header-wrapper {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+  border-radius: 4px;
+  border-color: brown;
+  height: 75%;
+  width: 50%;
+  margin: auto;
+}
+
+.header-wrapper div h1 {
+  display: flex;
+  color: antiquewhite;
+  font-family: sans-serif;
+  justify-content: center;
+}

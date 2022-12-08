@@ -1,0 +1,25 @@
+.todolist-container {
+  margin-top: 3rem;
+}
+
+.todolist-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.todolist-li input {
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  height: 2.5rem;
+  width: 50%;
+  font-size: 1.5rem;
+  outline: none;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  color: black;
+}
+.todolist-li button {
+  background-color: antiquewhite;
+}
