@@ -47,8 +47,8 @@ const TodoList = ({ todos, setTodos, setEditTodo }) => {
           <li
             className="todolist-li"
             key={item.id}
-            onDragStart={(e) => dragStart(e, index)}
-            onDragEnter={(e) => dragEnter(e, index)}
+            onDragStart={(e) => dragStart(e, id)}
+            onDragEnter={(e) => dragEnter(e, id)}
             onDragOver={(e) => e.preventDefault()}
             draggable
             onDragEnd={applyDragandDropHandler}
