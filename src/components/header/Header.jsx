@@ -32,6 +32,7 @@ const Header = () => {
             editTodo={editTodo}
           />
         </div>
+
         <div>
           <TodoList
             todos={todos}
